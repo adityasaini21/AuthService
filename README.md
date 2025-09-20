@@ -115,7 +115,7 @@ spring.datasource.password=[YOUR_DB_PASSWORD]
 
 # JWT Configuration
 app.jwt.secret=[YOUR_SUPER_SECRET_KEY]
-app.jwt.access-token-expiration-ms=900000 # 15 minutes
+app.jwt.access-token-expiration-ms=900000 # 15 minutes.
 app.jwt.refresh-token-expiration-ms=604800000 # 7 days
 🔑 API Endpoints
 The following are the main endpoints exposed by this authentication service:
